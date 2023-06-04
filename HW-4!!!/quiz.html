@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/quiz.css" />
+  </head>
+  <body>
+    <header>
+      <div class= "large-font">Java Script Quiz</div>
+      <button class="start-button">Start</button>
+    </header>
+
+    <main>
+      <section>
+        <div class="card word-guess">
+          <div class="large-font word-blanks">Press START To BEGIN!!!</div>
+          <div class="large-font questions"></div>
+          <div class="options"></div>
+          <div class="large-font showScore"></div>
+          <div class="initials"></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="card results">
+          <div class = "win-loss-container">
+          <div>
+          <div class = "timer-text">
+            <div class="large-font timer-count">30</div>
+            <h3>seconds remaining</h3>
+          </div>
+        </div>
+          <button class="reset-button">RESET</button>
+      </div>
+          <div class= "card timer">
+          <h2>Scores<span class="highScores">0 </span> </h2>
+            
+        
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="assets/js/quiz.js"></script>
+  </body>
+</html>
